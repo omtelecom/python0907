@@ -1,4 +1,4 @@
-def index_power(array, n):
-    return array[n]**n if 0 <= n < len(array) else -1
+def index_power(list, n):
+    return list[n]**n if 0 <= n < len(list) else -1
 array  = [1, 3, 10, 100]
-print (index_power(array, 3))
+print (index_power(list, 3))
