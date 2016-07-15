@@ -1,5 +1,4 @@
 def square_even(n):
-    list = [i * i for i in range(2, n + 1, 2 )]
-    return list
+    return [i * i for i in range(2, n + 1, 2 )]
 
 print (square_even(7))
